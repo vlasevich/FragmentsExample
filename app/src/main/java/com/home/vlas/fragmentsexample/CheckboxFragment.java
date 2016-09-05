@@ -11,7 +11,7 @@ public class CheckboxFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.checkbox_fragment,container,false);
+        View view = inflater.inflate(R.layout.checkbox_fragment, container, false);
         view.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         return view;
     }

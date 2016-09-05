@@ -11,7 +11,7 @@ public class ImageFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.image_fragment,container,false);
+        View view = inflater.inflate(R.layout.image_fragment, container, false);
         view.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
         return view;
     }
